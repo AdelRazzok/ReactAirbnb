@@ -29,3 +29,14 @@ body {background-color:#ff5a60}
 	font-weight: 400;
 	width: 350px;
 }
+
+/* ===== CARD ===== */
+.Card {
+	width: 176px;
+	padding-left: 36px;
+	font-size: 12px;
+}
+.Card p {width:176px;}
+.Card p, .card-image, .rating {margin-bottom: 8px;}
+.card-image {height: 235px;}
+.rating span:last-child {color: #918E9B;}
