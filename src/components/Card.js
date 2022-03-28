@@ -1,17 +1,15 @@
-import cardPic from '../img/katie-zaferes.png'
-import ratingStar from '../img/star.svg'
+export default function Card(props) {
 
-export default function Card() {
   	return (
 		<div className='Card'>
-			<img src={cardPic} alt="Katie Zafares picture" className='card-image' />
+			<img src={`./img/${props.imgName}`} alt='Card picture' className='card-image' />
 			<div className="rating">
-				<img src={ratingStar} alt="Rating star SVG" />
-				<span> 5.0</span>
-				<span> (6) • USA</span>
+				<img src='./img/star.svg' alt="Rating star SVG" />
+				<span> {props.ratingAverage}</span>
+				<span> ({props.ratingNumber}) • USA</span>
 			</div>
-			<p>Life lessons with Katie Zaferes</p>
-			<p><b>From $136</b> / person</p>
+			<p>{props.cardText}</p>
+			<p><b>From ${props.cardPrice}</b> / person</p>
 		</div>
   	)
 }

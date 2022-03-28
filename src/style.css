@@ -6,6 +6,7 @@ body {background-color:#ff5a60}
 	height: 100vh;
 	margin: auto;
 	background: #fff;
+	overflow: hidden;
 }
 
 /* ===== NAVBAR ===== */
@@ -31,8 +32,14 @@ body {background-color:#ff5a60}
 }
 
 /* ===== CARD ===== */
+.card-carousel {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 18px;
+}
 .Card {
 	width: 176px;
+	padding-top: 16px;
 	padding-left: 36px;
 	font-size: 12px;
 }
