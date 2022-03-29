@@ -13,6 +13,8 @@ export default function App() {
 				ratingNumber={data.ratingNumber}
 				cardText={data.cardText}
 				cardPrice={data.cardPrice}
+				openSpots={data.openSpots}
+				location={data.location}
 			/>
 		)
 	})

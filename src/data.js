@@ -6,7 +6,8 @@ export default [
 		ratingNumber: 6,
 		cardText: 'Life lessons with Katie Zaferes',
 		cardPrice: 136,
-		openSpots: 0
+		openSpots: 0,
+		location: 'on sport'
 	},
 	{
 		id: 2,
@@ -15,7 +16,8 @@ export default [
 		ratingNumber: 30,
 		cardText: 'Learn wedding photography',
 		cardPrice: 125,
-		openSpots: 1
+		openSpots: 1,
+		location: 'online'
 	},
 	{
 		id: 3,
@@ -24,6 +26,7 @@ export default [
 		ratingNumber: 2,
 		cardText: 'Group Mountain Biking',
 		cardPrice: 50,
-		openSpots: 5
+		openSpots: 5,
+		location: 'on spot'
 	}
 ]
