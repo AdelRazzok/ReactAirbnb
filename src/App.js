@@ -8,13 +8,8 @@ export default function App() {
 		return (
 			<Card
 				key={data.id}
-				imgName={data.imgName}
-				ratingAverage={data.ratingAverage}
-				ratingNumber={data.ratingNumber}
-				cardText={data.cardText}
-				cardPrice={data.cardPrice}
-				openSpots={data.openSpots}
-				location={data.location}
+				data={data}
+				// {...data} Is good too, but less precise
 			/>
 		)
 	})
